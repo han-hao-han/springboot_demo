@@ -14,7 +14,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class LoggerTests {
 
     private static final Logger logger = LoggerFactory.getLogger(LoggerTests.class);
-
+    //test
     @Test
     public void testLogger() {
         System.out.println(logger.getName());
